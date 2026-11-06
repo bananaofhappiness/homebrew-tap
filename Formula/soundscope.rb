@@ -1,26 +1,26 @@
 class Soundscope < Formula
   desc "TUI for real-time analysis of audio files, system audio, and microphone input"
   homepage "https://github.com/bananaofhappiness/soundscope"
-  url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.10.1/soundscope-macOS-arm64.tar.gz"
-  sha256 "9f490ad770d9d22e69e41fa9a6f3e08fc18cc07095c1a410458db3ebb1f7e7e8"
+  url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-macOS-arm64.tar.gz"
+  sha256 "e68364818e419356b0695640abb068daabc36570f1638713151650a1d3f414f3"
   license "MIT"
 
   on_macos do
     on_intel do
-      url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.10.1/soundscope-macOS-x86_64.tar.gz"
-      sha256 "772c58b2d5774546ecaaa49598fca94b25f1eeae1d1ab1ddc660b7450ac829b7"
+      url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-macOS-x86_64.tar.gz"
+      sha256 "2a6b0fc90037ab954684f0a3bcdbdf6a769572b346c138c26ce0066186172742"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.10.1/soundscope-Linux-gnu-x86_64.tar.gz"
-      sha256 "7d82c860b65328e72ec1211ce0f4c625be6ea058b1658377be8acb9c09f65450"
+      url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-Linux-gnu-x86_64.tar.gz"
+      sha256 "ceffcaf600574df0603304f3b86c19eea5c22679c05c30ea6d5a396bb6f6ef82"
     end
 
     on_arm do
-      url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.10.1/soundscope-Linux-gnu-arm64.tar.gz"
-      sha256 "064229b0991feabc2153897ee5f071c0237649b31db15ff68aa72fc591964459"
+      url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.11.0/soundscope-Linux-gnu-arm64.tar.gz"
+      sha256 "5c03a5572b6983748ff8d4fca0dc988b62988c6d48e9e369d3f28bb4e11a54a7"
     end
   end
 
