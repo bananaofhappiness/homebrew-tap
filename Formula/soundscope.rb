@@ -2,7 +2,6 @@ class Soundscope < Formula
   desc "TUI for real-time analysis of audio files, system audio, and microphone input"
   homepage "https://github.com/bananaofhappiness/soundscope"
   url "https://github.com/bananaofhappiness/soundscope/releases/download/v1.10.1/soundscope-macOS-arm64.tar.gz"
-  version "1.10.1"
   sha256 "9f490ad770d9d22e69e41fa9a6f3e08fc18cc07095c1a410458db3ebb1f7e7e8"
   license "MIT"
 
